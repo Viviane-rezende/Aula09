@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+.login-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 300px;
+
+}
+
+.login-container h2{
+    margin-bottom: 20px;
+    color: rgb(71, 56, 105);
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-color: rgb(131, 142, 165);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px 0; 
+}
