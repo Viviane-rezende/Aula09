@@ -5,21 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+
+
+    <style>
+        @import url("style.css");
+    </style>
 </head>
 
 <body>
     <div class="login-container">
         <h2>Login</h2>
         <label>E-mail</label>
-        <form action="#" method="post"></form>
-        <input type="email" id="email_form" required>
+        <form id="formlogin">
+        <input type="email" id="email_form">
         <label>Senha</label>
-        <input type="password" id="senha_form" required>
-        <input type="button" value="Entrar">
+        <input type="password" id="senha_form">
+        <input onclick="ola()" type="button" value="Entrar">
         </form>
     </div>
 
 </body>
+<script src="js/login.js"></script>
 
 </html>
